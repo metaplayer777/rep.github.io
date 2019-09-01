@@ -12,7 +12,9 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
 
-STATIC_PATHS = ['images' , 'pages' , 'articles']
+STATIC_PATHS = ['images']
+
+THEME = "pelican-themes/bootstrap2-dark"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
